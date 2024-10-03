@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "bakchod=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$bakchod/api.py",
+    "postStartCommand": "bakchod=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$bakchod/m.py",
     "customizations": {
         "vscode": {
             "settings": {
